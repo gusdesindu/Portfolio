@@ -1,0 +1,277 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.fcontainer {
+    background-color: #222222;
+    position: fixed;
+    z-index: 99;
+    color: crimson;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li a:hover{
+    color: orangered;
+    background-color: #1b1b1b;
+    
+    transition-duration: .3s;
+    border-radius: 5px;
+    
+} 
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 15px;
+    height: 41px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 200%;
+    padding: 15px;
+}
+
+.first {
+    font-weight: 700;
+    color: #222222;
+    margin-right: 200px;
+}
+
+.navigasi {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+.navigasi > li {
+    color: #003049;
+    list-style: none;
+    padding: 5px;
+}
+
+.navigasi>li>a {
+    color: crimson;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+/* H O M E */
+.home {
+    height: 92vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.hello{
+    padding-bottom: 80px; 
+    color: #222222;
+}
+
+.profilindex:hover{
+    width: 20%;
+}
+
+.profilindex{
+    width: 20%;
+    padding-bottom: 30px;
+    place-content: center;
+}
+
+
+/* ABOUT ME */
+.aboutme {
+    height: 110vh;
+    padding-right: 30px;
+    }
+
+.aboutme-text{
+    text-align: center;
+}
+
+.hell{
+    padding-top: 15vh;
+}
+
+.narasi{
+    margin-top: 5vh;
+    padding: 20px 20px 20px 20px;
+    width: 65%;
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 2px 2px 10px black;
+}
+
+.profilabout:hover{
+    width: 20%;
+}
+
+.profilabout{
+    width: 20%;
+    place-content: center;
+    border-radius: 50px;
+}
+
+/* GALLERY */
+.gallery{
+    height: 125vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2px;
+}
+
+.foto1:hover{
+    border-radius: 90px;
+    transition: .6s;
+    width: 20%;
+}
+
+.foto1{
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* SKILL */
+.skill{
+    height: 95vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2px;
+}
+
+.imageskill:hover{
+    width: 10%;
+    border-radius: 20px;
+    transition: .5s;
+    box-shadow: 1px 1px 10px black;
+}
+
+.skill1{
+    padding-top: 40px;
+}
+
+.js:hover{
+    width: 11%;
+}
+
+.imageskill{
+    padding: 20px 20px 20px 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin: 25px;
+}
+
+.profilskill{
+    padding-left: 200px;
+    place-content: center;
+}
+/* contact */
+.contact{
+    height: 160vh;
+}
+
+.fotocontact{
+    position: absolute;
+    left: 400px;
+    padding: 30px 30px 30px 30px;
+    margin-top: 560px;
+}
+
+.text-contactme{
+    position: absolute;
+    bottom: 240%;
+}
+
+.form input,
+.form button {
+    position: absolute;
+    left: 450px;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding-left: 10px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 10px;
+}
+
+.form1 {
+    position: absolute;
+    left: 700px;
+    width: 500px;
+    top: 220px;
+}
+
+.form2 {
+    position: absolute;
+    left: 700px;
+    width: 500px;
+    top: 290px;
+}
+
+.form3 {
+    position: absolute;
+    left: 700px;
+    width: 900px;
+    top: 360px;
+}
+
+.kirim:hover{
+    background-color: orangered;
+    transition: .3s;
+}
+
+.kirim {
+    position: absolute;
+    left: 700px;
+    width: 500px;
+    top: 460px;
+    background-color: #fcbf49;
+    font-weight: 800;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.fotocontact{
+    position: absolute;
+    right: 400px;
+}   
+
+/* footer */
+.footer{
+    background-color: #000;
+    height: 50px;
+    color: white;
+}
+
+.footer p{
+    padding-top: 15px;
+}
+
+/* responsif */
+@media (width < 800px) {
+    a.active{
+        display: none;
+    }
+}
