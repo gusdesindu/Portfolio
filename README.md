@@ -1,7 +1,7 @@
-# Portfolio
+# Tugas Pertama membuat Web ( Portfolio )
 
 
-Portfolio nich
+web Portfolio 
 
 Untuk Demo: <a href="https://gusdesindu.github.io/Portfolio/" target="_blank">Klik Disini</a>
 
